@@ -450,7 +450,7 @@ body {
   width: 264px;
   height: 40px;
   color: #ffffff;
-  background: #2e2f42;
+  background: transparent;
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -684,7 +684,7 @@ body {
   display: block;
   position: relative;
 }
-.modal-form-imput-icon {
+.modal-form-input-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -694,11 +694,11 @@ body {
   width: 18px;
   height: 24px;
 }
-.modal-form-imput-icon-item {
+.modal-form-input-icon-item {
   fill: #2e2f42;
   transition: fill var(--transition);
 }
-.modal-form-input:focus + .modal-form-imput-icon > .modal-form-imput-icon-item {
+.modal-form-input:focus + .modal-form-input-icon > .modal-form-input-icon-item {
   fill: #4d5ae5;
 }
 .modal-form-message {
